@@ -3,8 +3,8 @@ from .models import Post
 
 
 class PostForm(forms.ModelForm):
-	"""docstring for PostForm"""
+    """docstring for PostForm"""
 
-	class Meta:
-		model = Post
-		fields = ('title', 'text',)
+    class Meta:
+        model = Post
+        fields = ('title', 'text',)
